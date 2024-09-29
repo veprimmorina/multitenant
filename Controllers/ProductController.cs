@@ -14,6 +14,7 @@ namespace MultiTenant.Controllers
         {
             this.productService = productService;
         }
+        
         [HttpGet]
         public IActionResult Get()
         {

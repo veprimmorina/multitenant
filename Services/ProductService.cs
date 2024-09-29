@@ -12,6 +12,7 @@ namespace MultiTenant.Services
         {
             this.applicationDbContext = applicationDbContext;
         }
+        
         public Product CreateProduct(CreatepProductRequest req)
         {
             var product = new Product();
